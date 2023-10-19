@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 const Hero = () => {
   return (
     <div className='hero'>
@@ -13,6 +15,16 @@ const Hero = () => {
               Doloribus qui commodi excepturi animi.
             </p>
           </div>
+        </div>
+        <div className='hidden md:flex flex-col justify-end items-center'>
+          <Image
+            className=''
+            src='/assets/images/banner.png'
+            width={480}
+            height={100}
+            alt=''
+            priority
+          />
         </div>
       </div>
     </div>
