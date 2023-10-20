@@ -18,7 +18,6 @@ const Hero = () => {
         </div>
         <div className='hidden md:flex flex-col justify-end items-center'>
           <Image
-            className=''
             src='/assets/images/banner.png'
             width={480}
             height={100}
