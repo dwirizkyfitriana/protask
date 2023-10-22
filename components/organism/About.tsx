@@ -1,6 +1,7 @@
 import { mdiCheckCircle } from '@mdi/js'
 import Icon from '@mdi/react'
 import React from 'react'
+import FeatureCard from '../atoms/FeatureCard'
 
 const About = () => {
   return (
@@ -17,39 +18,15 @@ const About = () => {
       <div className='grid grid-cols-2'>
         <div></div>
         <div className='space-y-4'>
-          <div className='bg-white rounded-xl shadow-xl p-4 space-y-4'>
-            <div className='flex items-center gap-4'>
-              <Icon className='text-primary' path={mdiCheckCircle} size={1} />
-              <h1 className='font-semibold text-xl'>Creative Design</h1>
-            </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem architecto odit ea.
-              Voluptates qui assumenda fugit optio tenetur similique porro architecto aliquam
-              corporis et asperiores inventore culpa iure, tempore praesentium?
-            </p>
-          </div>
-          <div className='bg-white rounded-xl shadow-xl p-4 space-y-4'>
-            <div className='flex items-center gap-4'>
-              <Icon className='text-primary' path={mdiCheckCircle} size={1} />
-              <h1 className='font-semibold text-xl'>Creative Design</h1>
-            </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem architecto odit ea.
-              Voluptates qui assumenda fugit optio tenetur similique porro architecto aliquam
-              corporis et asperiores inventore culpa iure, tempore praesentium?
-            </p>
-          </div>
-          <div className='bg-white rounded-xl shadow-xl p-4 space-y-4'>
-            <div className='flex items-center gap-4'>
-              <Icon className='text-primary' path={mdiCheckCircle} size={1} />
-              <h1 className='font-semibold text-xl'>Creative Design</h1>
-            </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem architecto odit ea.
-              Voluptates qui assumenda fugit optio tenetur similique porro architecto aliquam
-              corporis et asperiores inventore culpa iure, tempore praesentium?
-            </p>
-          </div>
+          {[1, 2, 3].map((item) => (
+            <FeatureCard
+              key={item}
+              title='Creative Design'
+              body='Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore fugit, error excepturi
+        molestias dicta facere perferendis rem atque molestiae! Molestias at in eum libero quos.
+        Mollitia, aliquid. Maiores, aliquid veritatis?'
+            />
+          ))}
         </div>
       </div>
     </div>
