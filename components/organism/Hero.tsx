@@ -17,13 +17,7 @@ const Hero = () => {
           </div>
         </div>
         <div className='hidden md:flex flex-col justify-end items-center'>
-          <Image
-            src='/assets/images/banner.png'
-            width={480}
-            height={100}
-            alt=''
-            priority
-          />
+          <Image src='/assets/images/banner.png' width={480} height={100} alt='' priority />
         </div>
       </div>
     </div>
