@@ -15,7 +15,7 @@ const About = () => {
         atque molestiae! Molestias at in eum libero quos. Mollitia, aliquid. Maiores, aliquid
         veritatis?
       </p>
-      <div className='grid grid-cols-2'>
+      <div className='grid grid-cols-2 max-md:grid-cols-1'>
         <div></div>
         <div className='space-y-4'>
           {[1, 2, 3].map((item) => (
