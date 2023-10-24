@@ -1,5 +1,3 @@
-import Image from 'next/image'
-import Link from 'next/link'
 import Card from '../molecules/Card'
 import Icon from '@mdi/react'
 import { mdiArrowRight } from '@mdi/js'
@@ -14,7 +12,7 @@ const Blog = () => {
           perferendis quibusdam, temporibus velit natus voluptatem modi magnam saepe officiis veniam
           cum? Ducimus sequi ipsam tempora alias obcaecati.
         </p>
-        <div className='grid grid-cols-3 gap-4 w-full'>
+        <div className='grid grid-cols-3 max-md:grid-cols-1 gap-4 w-full'>
           {[1, 2, 3].map((item) => (
             <Card key={item} />
           ))}
