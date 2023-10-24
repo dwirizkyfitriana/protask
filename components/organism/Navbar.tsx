@@ -7,7 +7,7 @@ import NavbarMobile from '../molecules/NavbarMobile'
 const Navbar = () => {
   return (
     <div className='w-full flex justify-center'>
-      <div className='w-4/5 bg-white dark:bg-black dark:text-white fixed flex text-black justify-between items-center mt-12 h-[60px] rounded-md px-5 font-semibold'>
+      <div className='w-4/5 bg-white dark:bg-black dark:text-white fixed flex text-black justify-between items-center mt-12 h-[60px] rounded-md px-5 font-semibold shadow-lg'>
         <NavbarMobile />
         <div className='hidden md:flex items-center gap-6 w-2/6'>
           <div>HOME</div>
