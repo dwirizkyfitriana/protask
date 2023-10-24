@@ -1,5 +1,3 @@
-import { mdiCheckCircle } from '@mdi/js'
-import Icon from '@mdi/react'
 import React from 'react'
 import FeatureCard from '../atoms/FeatureCard'
 

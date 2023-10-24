@@ -20,11 +20,6 @@ body {
   @apply text-black dark:text-white;
 }
 
-.hero {
-  background-image: url('/assets/images/background.png');
-  @apply w-full min-h-screen -z-[1];
-}
-
 .vertical-divider {
   @apply w-[1px] h-6 bg-black dark:bg-white;
 }
