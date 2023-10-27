@@ -1,5 +1,6 @@
 import About from '@/components/organism/About'
 import Blog from '@/components/organism/Blog'
+import Faq from '@/components/organism/Faq'
 import Hero from '@/components/organism/Hero'
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <About />
       <Blog />
+      <Faq />
     </main>
   )
 }
