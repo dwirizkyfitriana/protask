@@ -1,6 +1,7 @@
 import About from '@/components/organism/About'
 import Blog from '@/components/organism/Blog'
 import Faq from '@/components/organism/Faq'
+import Footer from '@/components/organism/Footer'
 import Hero from '@/components/organism/Hero'
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <About />
       <Blog />
       <Faq />
+      <Footer />
     </main>
   )
 }

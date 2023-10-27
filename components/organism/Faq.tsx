@@ -5,6 +5,8 @@ const Faq = () => {
   const accordions: TAccordionItem[] = [
     { title: 'Pertanyaan', body: 'Jawaban' },
     { title: 'Pertanyaan', body: 'Jawaban' },
+    { title: 'Pertanyaan', body: 'Jawaban' },
+    { title: 'Pertanyaan', body: 'Jawaban' },
     { title: 'Pertanyaan', body: 'Jawaban' }
   ]
   return (
