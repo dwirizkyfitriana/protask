@@ -4,8 +4,8 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <div className='bg-black w-full h-[30vh] text-white flex flex-col items-center justify-between gap-6 pt-12 pb-4'>
-      <div className='grid grid-cols-3 max-md:grid-cols-1 w-4/5'>
+    <div className='bg-black w-full text-white flex flex-col items-center justify-between gap-6 pt-12 pb-4'>
+      <div className='grid grid-cols-3 max-md:grid-cols-1 gap-6 w-4/5'>
         <div className='space-y-4'>
           <h1 className='font-bold text-3xl'>ProTask</h1>
           <p>
