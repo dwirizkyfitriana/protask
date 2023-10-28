@@ -5,7 +5,7 @@ const Card = () => {
   return (
     <div className='bg-white rounded-xl p-4 shadow-[0_3px_10px_rgb(0,0,0,0.2)] text-black dark:text-white space-y-4'>
       <Image
-        className='rounded-xl aspect-video'
+        className='rounded-xl aspect-video w-full'
         alt=''
         src='/assets/images/background.png'
         width={400}
