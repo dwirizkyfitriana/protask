@@ -1,3 +1,4 @@
+import { navbar } from '@/constants/navbar'
 import { mdiFacebook, mdiInstagram, mdiTwitter } from '@mdi/js'
 import Icon from '@mdi/react'
 import Link from 'next/link'
@@ -22,9 +23,11 @@ const Footer = () => {
         <div></div>
         <div className='flex flex-col gap-1'>
           <h1 className='font-semibold text-2xl'>Quick Link</h1>
-          <Link href='/'>About</Link>
-          <Link href='/'>Faq</Link>
-          <Link href='/'>Blog</Link>
+          {navbar.map((item, index) => (
+            <Link key={index} href={item.href}>
+              {item.label}
+            </Link>
+          ))}
         </div>
       </div>
       <div className='w-4/5 text-center space-y-4'>
