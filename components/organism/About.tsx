@@ -3,7 +3,7 @@ import FeatureCard from '../atoms/FeatureCard'
 
 const About = () => {
   return (
-    <div className='w-4/5 flex flex-col items-center gap-8 py-8'>
+    <div className='w-4/5 flex flex-col items-center gap-8 py-8' data-aos='fade-up'>
       <h1 className='font-bold text-3xl'>About Us</h1>
       <p className='text-center'>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore fugit, error excepturi

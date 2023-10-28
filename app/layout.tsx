@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import '@/styles/globals.css'
 import Navbar from '@/components/organism/Navbar'
 import ThemeProvider from '@/components/Providers/ThemeProvider'
+import AosProvider from '@/components/Providers/AosProvider'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,6 +16,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang='en' suppressHydrationWarning>
+      <AosProvider />
       <body className={inter.className}>
         <ThemeProvider>
           <Navbar />

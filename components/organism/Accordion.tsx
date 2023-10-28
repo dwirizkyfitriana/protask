@@ -11,7 +11,7 @@ const Accordion = ({ data, className }: { data: TAccordionItem[]; className?: st
     setActiveItem((prev) => (prev === index ? -1 : index))
   }
   return (
-    <div className={className}>
+    <div className={className} data-aos='fade-up'>
       {data.map((item, index) => (
         <AccordionItem
           key={index}
